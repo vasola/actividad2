@@ -1,0 +1,113 @@
+/*RESET CSS*/
+
+*{
+margin: 0;
+padding: 0;}
+
+
+/*MY STYLE*/
+
+/*INICIO TIPO */
+
+@font-face {
+	font-family: 'El Rio Lobo';
+	src: url('../fonts/The_Emperors_font.eot');
+	src: url('../fonts/The_Emperors_font.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/The_Emperors_font.woff') format('woff'),
+		 url('../fonts/The_Emperors_font.ttf')  format('truetype'),
+		 url('../fonts/The_Emperors_font.svg#04a895ec2b9535ff55881607625d1b84') format('svg');
+
+	font-style: normal;
+	font-weight: 400;
+}
+/* FIN TIPO */
+
+
+/* INICIO HEADER */
+header{
+    background-color: #A1243A;
+    text-align: center;
+    width: 100%;
+    height: 180px;
+}
+  
+
+h1{
+    font-size: 50px;
+    padding:50px 0 0 0;
+    color: #F2AF40;
+    font-family:'El Rio Lobo' ;
+}
+
+.first-web{
+    color: white;
+    font-size: 20px;
+}
+
+
+/* FIN HEADER */
+
+
+/* INICIO PRIMERA IMAGEN */
+.cuzco-1{
+    width: 100%;
+    height: 402px;
+    background-color: #158ABE;
+}
+
+.cuzco-1 img{
+    width: 40%;
+    padding: 4% 30% 0;
+}
+
+
+/* FIN PRIMERA IMAGEN */
+
+
+/* INICIO SEGUNDA IMAGEN */
+
+.cuzco-2{
+    background-image: url(../images/cuzco2.jpg);
+    background-position:30%;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.cuzco-2 h2{
+    text-align: right;
+    color: #f2af40;
+    font-family: 'El Rio Lobo';
+    font-size: 40px;
+    
+}
+
+.cuzco-2 p{
+    text-align: right;
+    color: white;
+
+}
+
+
+/* FIN SEGUNDA IMAGEN */
+
+
+/* INICIO PRECIOS */
+.precios{
+    width: 100%;
+    height: 450px;
+    border: 1px solid black;
+    background-color: white;
+    font-family: 'El Rio Lobo';
+    text-align: center
+}
+
+
+.precios h3{
+    margin: 10% 0 0 0;
+}
+.precios h3,.precios h4,.precios h5, .precios h6{
+    font-size: 50px; }
+
+
+/* FIN PRECIOS */
